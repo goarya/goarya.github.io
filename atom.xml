@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-06T10:48:10.129Z</updated>
+  <updated>2019-07-08T02:45:36.945Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AWZ爱伪装</title>
+    <link href="http://yoursite.com/2019/07/08/awzapp/"/>
+    <id>http://yoursite.com/2019/07/08/awzapp/</id>
+    <published>2019-07-08T02:41:52.000Z</published>
+    <updated>2019-07-08T02:45:36.945Z</updated>
+    
+    <content type="html"><![CDATA[<p>AWZ爱伪装 是一款通用的一键新机软件，主要用于对应用伪装设备参数和清理应用数据，它功能强大，设置丰富，且拥有完整的随机参数设置、全息备份、虚拟定位功能，支持苹果iOS全系列所有已越狱设备.</p><p><a href="https://www.awzapp.com/" target="_blank" rel="noopener">https://www.awzapp.com/</a><br><a href="https://www.awzapp.com/a/api/http.html" target="_blank" rel="noopener">https://www.awzapp.com/a/api/http.html</a></p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>通过在 Cydia 中添加 AWZ爱伪装 官方源来安装<br>源地址：apt.awzapp.com</p><h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p>  一键新机：修正手机型号、系统版本、运营商、网络类型、设备称号、UDID、IMEI、系列号、MAC地址、IDFV、SSID、BSSID等。<br>  全息备份：备份app数据和设备参数。含（帐号、密码、聊天记载、缓存图文视频等等）<br>  位置假装：全球虚拟定位，假装设备当前天文位置。可智能随机天文位置和位置智能偏移。<br>  导入导出：在a设备备份的APP数据和设备参数等，转移到b设备上面运用。支持在线扫码导入导出。<br>  极限形式：AWZ支持软改和硬改。软改是假装设备参数，硬改是修正设备参数，可在关于本机观看。<br>  智能瘦身：清理备份数据中应用和系统的日志、文件、解体记载、暂时文件、图片、视频、语音、聊天记载等缓存。<br>  脚本调用：经过命令后台调用AWZ，无需脚本模仿，可后台操作一键新机，切换备份等。</p><p>注意： </p><p>ALS爱立思是AWZ作者全新开发的版本，清理更干净，伪装参数更多，右上角的【新机参数】中有更多机型【 XR XS XS MAX】和系统版本【iOS12】选择，awz后期可能不会再更新了，ALS会逐步取代awz</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;AWZ爱伪装 是一款通用的一键新机软件，主要用于对应用伪装设备参数和清理应用数据，它功能强大，设置丰富，且拥有完整的随机参数设置、全息备份、虚拟定位功能，支持苹果iOS全系列所有已越狱设备.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.awzapp.com/&quot; 
+      
+    
+    </summary>
+    
+    
+      <category term="改机" scheme="http://yoursite.com/tags/%E6%94%B9%E6%9C%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>Instant Data Scraper</title>
@@ -137,7 +161,7 @@
     <published>2017-01-02T06:57:52.000Z</published>
     <updated>2019-07-07T12:17:23.004Z</updated>
     
-    <content type="html"><![CDATA[<p>echarts 例子</p><a id="more"></a><div id="echarts5299" style="width: 85%;height: 400px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts5299'));        // 指定图表的配置项和数据        var option = {    tooltip : {        trigger: 'axis',        axisPointer : {            // 坐标轴指示器，坐标轴触发有效            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'        }    },    legend: {        data:['利润', '支出', '收入']    },    grid: {        left: '3%',        right: '4%',        bottom: '3%',        containLabel: true    },    xAxis : [        {            type : 'value'        }    ],    yAxis : [        {            type : 'category',            axisTick : {show: false},            data : ['周一','周二','周三','周四','周五','周六','周日']        }    ],    series : [        {            name:'利润',            type:'bar',            itemStyle : {                normal: {                    label: {show: true, position: 'inside'}                }            },            data:[200, 170, 240, 244, 200, 220, 210]        },        {            name:'收入',            type:'bar',            stack: '总量',            itemStyle: {                normal: {                    label : {show: true}                }            },            data:[320, 302, 341, 374, 390, 450, 420]        },        {            name:'支出',            type:'bar',            stack: '总量',            itemStyle: {normal: {                label : {show: true, position: 'left'}            }},            data:[-120, -132, -101, -134, -190, -230, -210]        }    ]};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
+    <content type="html"><![CDATA[<p>echarts 例子</p><a id="more"></a><div id="echarts323" style="width: 85%;height: 400px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts323'));        // 指定图表的配置项和数据        var option = {    tooltip : {        trigger: 'axis',        axisPointer : {            // 坐标轴指示器，坐标轴触发有效            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'        }    },    legend: {        data:['利润', '支出', '收入']    },    grid: {        left: '3%',        right: '4%',        bottom: '3%',        containLabel: true    },    xAxis : [        {            type : 'value'        }    ],    yAxis : [        {            type : 'category',            axisTick : {show: false},            data : ['周一','周二','周三','周四','周五','周六','周日']        }    ],    series : [        {            name:'利润',            type:'bar',            itemStyle : {                normal: {                    label: {show: true, position: 'inside'}                }            },            data:[200, 170, 240, 244, 200, 220, 210]        },        {            name:'收入',            type:'bar',            stack: '总量',            itemStyle: {                normal: {                    label : {show: true}                }            },            data:[320, 302, 341, 374, 390, 450, 420]        },        {            name:'支出',            type:'bar',            stack: '总量',            itemStyle: {normal: {                label : {show: true, position: 'left'}            }},            data:[-120, -132, -101, -134, -190, -230, -210]        }    ]};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
     
     <summary type="html">
     
