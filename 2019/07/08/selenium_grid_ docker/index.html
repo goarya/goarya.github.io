@@ -96,18 +96,19 @@
 
 
 
-  <meta name="description" content="同一客户端多个git账号生成多份rsa秘钥实现多个账户同时使用">
-<meta name="keywords" content="git,github">
+  <meta name="description" content="Docker Seleniumhttps://github.com/SeleniumHQ/docker-selenium 12345678docker network create griddocker run -d -p 4444:4444 --net grid --name selenium-hub selenium/hubdocker run -d --net grid -e HUB_HOS">
 <meta property="og:type" content="article">
-<meta property="og:title" content="git 多账号配置">
-<meta property="og:url" content="http://yoursite.com/2015/09/12/git-config/index.html">
+<meta property="og:title" content="grid">
+<meta property="og:url" content="http://yoursite.com/2019/07/08/selenium_grid_ docker/index.html">
 <meta property="og:site_name" content="go arya">
-<meta property="og:description" content="同一客户端多个git账号生成多份rsa秘钥实现多个账户同时使用">
+<meta property="og:description" content="Docker Seleniumhttps://github.com/SeleniumHQ/docker-selenium 12345678docker network create griddocker run -d -p 4444:4444 --net grid --name selenium-hub selenium/hubdocker run -d --net grid -e HUB_HOS">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2016-07-07T13:07:06.000Z">
+<meta property="og:image" content="http://yoursite.com/images/screenshot_google.png">
+<meta property="og:updated_time" content="2019-07-08T03:16:44.894Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="git 多账号配置">
-<meta name="twitter:description" content="同一客户端多个git账号生成多份rsa秘钥实现多个账户同时使用">
+<meta name="twitter:title" content="grid">
+<meta name="twitter:description" content="Docker Seleniumhttps://github.com/SeleniumHQ/docker-selenium 12345678docker network create griddocker run -d -p 4444:4444 --net grid --name selenium-hub selenium/hubdocker run -d --net grid -e HUB_HOS">
+<meta name="twitter:image" content="http://yoursite.com/images/screenshot_google.png">
 
 
 
@@ -117,7 +118,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/2015/09/12/git-config/">
+  <link rel="canonical" href="http://yoursite.com/2019/07/08/selenium_grid_ docker/">
 
 
 
@@ -127,7 +128,7 @@
   };
 </script>
 
-  <title>git 多账号配置 | go arya</title>
+  <title>grid | go arya</title>
   
 
 
@@ -353,7 +354,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2015/09/12/git-config/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/08/selenium_grid_ docker/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="arya">
@@ -370,7 +371,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">git 多账号配置
+          <h1 class="post-title" itemprop="name headline">grid
 
               
             
@@ -396,46 +397,16 @@
                 
               
 
-              <time title="创建时间：2015-09-12 20:19:40" itemprop="dateCreated datePublished" datetime="2015-09-12T20:19:40+08:00">2015-09-12</time>
+              <time title="创建时间：2019-07-08 11:10:44 / 修改时间：11:16:44" itemprop="dateCreated datePublished" datetime="2019-07-08T11:10:44+08:00">2019-07-08</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-07-07 21:07:06" itemprop="dateModified" datetime="2016-07-07T21:07:06+08:00">2016-07-07</time>
               
             
           </span>
 
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/shell/" itemprop="url" rel="index"><span itemprop="name">shell</span></a></span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -465,47 +436,14 @@
       
 
       
-        <p>同一客户端多个git账号生成多份rsa秘钥实现多个账户同时使用</p>
-<a id="more"></a>
+        <h2 id="Docker-Selenium"><a href="#Docker-Selenium" class="headerlink" title="Docker Selenium"></a>Docker Selenium</h2><p><a href="https://github.com/SeleniumHQ/docker-selenium" target="_blank" rel="noopener">https://github.com/SeleniumHQ/docker-selenium</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">docker network create grid</span><br><span class="line"></span><br><span class="line">docker run -d -p 4444:4444 --net grid --name selenium-hub selenium/hub</span><br><span class="line">docker run -d --net grid -e HUB_HOST=selenium-hub -v /dev/shm:/dev/shm selenium/node-chrome</span><br><span class="line">docker run -d --net grid -e HUB_HOST=selenium-hub -v /dev/shm:/dev/shm selenium/node-firefox</span><br><span class="line"></span><br><span class="line">docker run -d  -e NODE_MAX_SESSION=10 -e NODE_MAX_INSTANCES=10 --net grid -e HUB_HOST=selenium-hub -v /dev/shm:/dev/shm selenium/node-chrome</span><br><span class="line">docker run -d  -e NODE_MAX_SESSION=10 -e NODE_MAX_INSTANCES=10 --net grid -e HUB_HOST=selenium-hub -v /dev/shm:/dev/shm selenium/node-firefox</span><br></pre></td></tr></table></figure>
 
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">from selenium import webdriver</span><br><span class="line">from selenium.webdriver.support.wait import WebDriverWait</span><br><span class="line">from time import sleep</span><br><span class="line"></span><br><span class="line">hub_url = &apos;http://192.168.199.29:4444/wd/hub&apos;</span><br><span class="line"></span><br><span class="line">driver = webdriver.Remote(</span><br><span class="line">command_executor=hub_url,</span><br><span class="line">desired_capabilities=&#123;</span><br><span class="line">            &quot;browserName&quot;: &quot;chrome&quot;,</span><br><span class="line">            # &quot;version&quot;: &quot;latest&quot;,</span><br><span class="line">            # &quot;video&quot;: &quot;True&quot;,</span><br><span class="line">            # &quot;platform&quot;: &quot;VISTA&quot;,</span><br><span class="line">            # &quot;platformName&quot;: &quot;windows&quot;</span><br><span class="line">            &quot;goog:chromeOptions&quot;:&#123;</span><br><span class="line">            	&apos;args&apos;: [&apos;lang=en_US&apos;,&apos;--proxy-server=http://192.168.199.29:8118&apos;],</span><br><span class="line">            	&quot;mobileEmulation&quot;: &#123;&quot;deviceName&quot;: &quot;iPhone 6&quot;&#125;,</span><br><span class="line">            	&apos;extensions&apos;: [],</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">def get_response_html(url):</span><br><span class="line">	page_source = None</span><br><span class="line">	try:</span><br><span class="line">		driver.get(url)</span><br><span class="line">		# sleep(10)</span><br><span class="line">		driver.get_screenshot_as_file(&quot;screenshot.png&quot;)</span><br><span class="line">		page_source = driver.page_source</span><br><span class="line">	finally:</span><br><span class="line">		driver.quit()</span><br><span class="line">		print(&quot;end...&quot;)</span><br><span class="line">	return page_source</span><br><span class="line"></span><br><span class="line">if __name__ == &apos;__main__&apos;:</span><br><span class="line">	# profile_url = &apos;https://www.baidu.com&apos;</span><br><span class="line">	profile_url = &apos;https://www.google.com&apos;</span><br><span class="line">	print(get_response_html(profile_url))</span><br></pre></td></tr></table></figure>
 
-<h2 id="ssh-keygen"><a href="#ssh-keygen" class="headerlink" title="ssh-keygen"></a>ssh-keygen</h2><pre><code>➜  Workspace git:(master) ✗ ssh-keygen -t rsa -f ~/.ssh/id_rsa.coding -C &quot;xxxx@xxx.xxx&quot;
-Generating public/private rsa key pair.
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:
-Your identification has been saved in /home/xxx/.ssh/id_rsa.coding.
-Your public key has been saved in /home/xxx/.ssh/id_rsa.coding.pub.
-The key fingerprint is:
-24:e0:d2:1d:d7:da:87:d8:f7:d7:aa:70:25:f0:3f:e9 xxxx@xxx.xxx
-The key&apos;s randomart image is:
-+--[ RSA 2048]----+
-|    . . ..       |
-|   o o o  .      |
-|  . o o .=..     |
-|   .   oo +oo    |
-|        S  oo.. .|
-|             +..o|
-|          . . +o |
-|           o ... |
-|            ..E  |
-+-----------------+
+<p>结果：</p>
+<p><img src="/images/screenshot_google.png" alt></p>
 
-➜  Workspace git:(master) ✗ ssh-add ~/.ssh/id_rsa.coding
-Identity added: /home/xxx/.ssh/id_rsa.coding (/home/xxx/.ssh/id_rsa.coding)</code></pre><h2 id="config"><a href="#config" class="headerlink" title="config"></a>config</h2><p>touch ~/.ssh/config</p>
-<pre><code>Host github.com
-    User xxx
-    IdentityFile ~/.ssh/id_rsa
-    PreferredAuthentications publickey
-
-Host git.coding.net
-    HostName git.coding.net
-    User xxx
-    IdentityFile ~/.ssh/id_rsa
-
-Host git.coding.net
-    HostName git.coding.net
-    User xxx2
-    IdentityFile ~/.ssh/id_rsa.coding</code></pre>
       
     </div>
 
@@ -526,17 +464,6 @@ Host git.coding.net
 
     <footer class="post-footer">
       
-        
-          
-        
-        <div class="post-tags">
-          
-            <a href="/tags/git/" rel="tag"># git</a>
-          
-            <a href="/tags/github/" rel="tag"># github</a>
-          
-        </div>
-      
 
       
       
@@ -546,8 +473,8 @@ Host git.coding.net
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/09/12/spark-chinese-handbook/" rel="next" title="Spark中文手册">
-                <i class="fa fa-chevron-left"></i> Spark中文手册
+              <a href="/2019/07/08/awzapp/" rel="next" title="AWZ爱伪装">
+                <i class="fa fa-chevron-left"></i> AWZ爱伪装
               </a>
             
           </div>
@@ -555,10 +482,6 @@ Host git.coding.net
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/01/02/echarts/" rel="prev" title="echarts demo">
-                echarts demo <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -720,7 +643,7 @@ Host git.coding.net
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#ssh-keygen"><span class="nav-number">1.</span> <span class="nav-text">ssh-keygen</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#config"><span class="nav-number">2.</span> <span class="nav-text">config</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Docker-Selenium"><span class="nav-number">1.</span> <span class="nav-text">Docker Selenium</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用"><span class="nav-number">2.</span> <span class="nav-text">使用</span></a></li></ol></div>
             
 
           </div>
