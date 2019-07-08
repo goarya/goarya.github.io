@@ -441,6 +441,19 @@
           
             
             
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2015/09/12/spark-chinese-handbook/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2015/09/12/spark-chinese-handbook/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -519,14 +532,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2015/09/12/spark-sql/" rel="next" title="spark-shell">
+                <i class="fa fa-chevron-left"></i> spark-shell
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/09/12/spark-sql/" rel="prev" title="spark-shell">
-                spark-shell <i class="fa fa-chevron-right"></i>
+              <a href="/2015/09/12/git-config/" rel="prev" title="git 多账号配置">
+                git 多账号配置 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -548,6 +565,10 @@
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
 
   
 
@@ -842,6 +863,36 @@
   
 
   
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: '9cITiCmAHlI72uPGtAeyymsz-9Nh9j0Va',
+    appKey: 'fwQpPoIplKQErz0xmzdA7nv3',
+    placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
 
 
   

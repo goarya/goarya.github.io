@@ -180,7 +180,7 @@
     <published>2017-01-02T06:57:52.000Z</published>
     <updated>2019-07-07T12:17:23.004Z</updated>
     
-    <content type="html"><![CDATA[<p>echarts 例子</p><a id="more"></a><div id="echarts5116" style="width: 85%;height: 400px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts5116'));        // 指定图表的配置项和数据        var option = {    tooltip : {        trigger: 'axis',        axisPointer : {            // 坐标轴指示器，坐标轴触发有效            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'        }    },    legend: {        data:['利润', '支出', '收入']    },    grid: {        left: '3%',        right: '4%',        bottom: '3%',        containLabel: true    },    xAxis : [        {            type : 'value'        }    ],    yAxis : [        {            type : 'category',            axisTick : {show: false},            data : ['周一','周二','周三','周四','周五','周六','周日']        }    ],    series : [        {            name:'利润',            type:'bar',            itemStyle : {                normal: {                    label: {show: true, position: 'inside'}                }            },            data:[200, 170, 240, 244, 200, 220, 210]        },        {            name:'收入',            type:'bar',            stack: '总量',            itemStyle: {                normal: {                    label : {show: true}                }            },            data:[320, 302, 341, 374, 390, 450, 420]        },        {            name:'支出',            type:'bar',            stack: '总量',            itemStyle: {normal: {                label : {show: true, position: 'left'}            }},            data:[-120, -132, -101, -134, -190, -230, -210]        }    ]};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
+    <content type="html"><![CDATA[<p>echarts 例子</p><a id="more"></a><div id="echarts5073" style="width: 85%;height: 400px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts5073'));        // 指定图表的配置项和数据        var option = {    tooltip : {        trigger: 'axis',        axisPointer : {            // 坐标轴指示器，坐标轴触发有效            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'        }    },    legend: {        data:['利润', '支出', '收入']    },    grid: {        left: '3%',        right: '4%',        bottom: '3%',        containLabel: true    },    xAxis : [        {            type : 'value'        }    ],    yAxis : [        {            type : 'category',            axisTick : {show: false},            data : ['周一','周二','周三','周四','周五','周六','周日']        }    ],    series : [        {            name:'利润',            type:'bar',            itemStyle : {                normal: {                    label: {show: true, position: 'inside'}                }            },            data:[200, 170, 240, 244, 200, 220, 210]        },        {            name:'收入',            type:'bar',            stack: '总量',            itemStyle: {                normal: {                    label : {show: true}                }            },            data:[320, 302, 341, 374, 390, 450, 420]        },        {            name:'支出',            type:'bar',            stack: '总量',            itemStyle: {normal: {                label : {show: true, position: 'left'}            }},            data:[-120, -132, -101, -134, -190, -230, -210]        }    ]};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
     
     <summary type="html">
     
@@ -203,6 +203,32 @@
     <summary type="html">
     
       &lt;p&gt;同一客户端多个git账号生成多份rsa秘钥实现多个账户同时使用&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="shell" scheme="http://yoursite.com/categories/shell/"/>
+    
+    
+      <category term="git" scheme="http://yoursite.com/tags/git/"/>
+    
+      <category term="github" scheme="http://yoursite.com/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spark中文手册</title>
+    <link href="http://yoursite.com/2015/09/12/spark-chinese-handbook/"/>
+    <id>http://yoursite.com/2015/09/12/spark-chinese-handbook/</id>
+    <published>2015-09-12T12:19:40.000Z</published>
+    <updated>2017-01-02T04:30:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>#Spark中文手册</p><p>Spark中文手册1-编程指南<br><a href="http://www.aboutyun.com/thread-11413-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11413-1-1.html</a></p><p>Spark中文手册2：Spark之一个快速的例子<br><a href="http://www.aboutyun.com/thread-11484-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11484-1-1.html</a></p><a id="more"></a><p>Spark中文手册3：Spark之基本概念<br><a href="http://www.aboutyun.com/thread-11502-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11502-1-1.html</a></p><p>Spark中文手册4：Spark之基本概念（2）<br><a href="http://www.aboutyun.com/thread-11516-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11516-1-1.html</a></p><p>Spark中文手册5：Spark之基本概念（3）<br><a href="http://www.aboutyun.com/thread-11535-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11535-1-1.html</a></p><p>Spark中文手册6：Spark-sql由入门到精通<br><a href="http://www.aboutyun.com/thread-11562-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11562-1-1.html</a></p><p>Spark中文手册7：Spark-sql由入门到精通【续】<br><a href="http://www.aboutyun.com/thread-11575-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11575-1-1.html</a></p><p>Spark中文手册8：spark GraphX编程指南（1）<br><a href="http://www.aboutyun.com/thread-11589-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11589-1-1.html</a></p><p>Spark中文手册9：spark GraphX编程指南（2）<br><a href="http://www.aboutyun.com/thread-11601-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11601-1-1.html</a></p><p>Spark中文手册10：spark部署：提交应用程序及独立部署模式<br><a href="http://www.aboutyun.com/thread-11615-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11615-1-1.html</a></p><p>Spark中文手册11：Spark 配置指南<br><a href="http://www.aboutyun.com/thread-10652-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-10652-1-1.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#Spark中文手册&lt;/p&gt;
+&lt;p&gt;Spark中文手册1-编程指南&lt;br&gt;&lt;a href=&quot;http://www.aboutyun.com/thread-11413-1-1.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.aboutyun.com/thread-11413-1-1.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Spark中文手册2：Spark之一个快速的例子&lt;br&gt;&lt;a href=&quot;http://www.aboutyun.com/thread-11484-1-1.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.aboutyun.com/thread-11484-1-1.html&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
@@ -240,32 +266,6 @@ sqlContext: org.apache.spark.sql.SQLContext = org.apache.spark.sql.SQLContext@51
 
 scala&amp;gt; import sqlContext.implicits._
 import sqlContext.implicits._&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-      <category term="shell" scheme="http://yoursite.com/categories/shell/"/>
-    
-    
-      <category term="git" scheme="http://yoursite.com/tags/git/"/>
-    
-      <category term="github" scheme="http://yoursite.com/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Spark中文手册</title>
-    <link href="http://yoursite.com/2015/09/12/spark-chinese-handbook/"/>
-    <id>http://yoursite.com/2015/09/12/spark-chinese-handbook/</id>
-    <published>2015-09-12T12:19:40.000Z</published>
-    <updated>2017-01-02T04:30:12.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>#Spark中文手册</p><p>Spark中文手册1-编程指南<br><a href="http://www.aboutyun.com/thread-11413-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11413-1-1.html</a></p><p>Spark中文手册2：Spark之一个快速的例子<br><a href="http://www.aboutyun.com/thread-11484-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11484-1-1.html</a></p><a id="more"></a><p>Spark中文手册3：Spark之基本概念<br><a href="http://www.aboutyun.com/thread-11502-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11502-1-1.html</a></p><p>Spark中文手册4：Spark之基本概念（2）<br><a href="http://www.aboutyun.com/thread-11516-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11516-1-1.html</a></p><p>Spark中文手册5：Spark之基本概念（3）<br><a href="http://www.aboutyun.com/thread-11535-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11535-1-1.html</a></p><p>Spark中文手册6：Spark-sql由入门到精通<br><a href="http://www.aboutyun.com/thread-11562-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11562-1-1.html</a></p><p>Spark中文手册7：Spark-sql由入门到精通【续】<br><a href="http://www.aboutyun.com/thread-11575-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11575-1-1.html</a></p><p>Spark中文手册8：spark GraphX编程指南（1）<br><a href="http://www.aboutyun.com/thread-11589-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11589-1-1.html</a></p><p>Spark中文手册9：spark GraphX编程指南（2）<br><a href="http://www.aboutyun.com/thread-11601-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11601-1-1.html</a></p><p>Spark中文手册10：spark部署：提交应用程序及独立部署模式<br><a href="http://www.aboutyun.com/thread-11615-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-11615-1-1.html</a></p><p>Spark中文手册11：Spark 配置指南<br><a href="http://www.aboutyun.com/thread-10652-1-1.html" target="_blank" rel="noopener">http://www.aboutyun.com/thread-10652-1-1.html</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;#Spark中文手册&lt;/p&gt;
-&lt;p&gt;Spark中文手册1-编程指南&lt;br&gt;&lt;a href=&quot;http://www.aboutyun.com/thread-11413-1-1.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.aboutyun.com/thread-11413-1-1.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Spark中文手册2：Spark之一个快速的例子&lt;br&gt;&lt;a href=&quot;http://www.aboutyun.com/thread-11484-1-1.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.aboutyun.com/thread-11484-1-1.html&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
