@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-08T03:28:37.490Z</updated>
+  <updated>2019-07-31T08:57:26.538Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>pdf-to-jpg</title>
+    <link href="http://yoursite.com/2019/07/31/pdf-to-jpg/"/>
+    <id>http://yoursite.com/2019/07/31/pdf-to-jpg/</id>
+    <published>2019-07-31T08:56:46.000Z</published>
+    <updated>2019-07-31T08:57:26.538Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">from wand.image import Image</span><br><span class="line">from wand.color import Color</span><br><span class="line"></span><br><span class="line">pdf_path = &apos;/Users/deeplife/Downloads/亚马逊大数据智能选款平台使用手册v1.2.pdf&apos;</span><br><span class="line">with Image(filename=pdf_path,resolution=300) as image_pdf:</span><br><span class="line">     with image_pdf.convert(&apos;jpeg&apos;) as all_pages:</span><br><span class="line">            first_page = all_pages.sequence[0]   </span><br><span class="line">            with Image(first_page) as i:</span><br><span class="line">                i.format = &apos;png&apos;</span><br><span class="line">                i.background_color = Color(&apos;white&apos;) </span><br><span class="line">                i.alpha_channel = &apos;remove&apos;</span><br><span class="line">                i.save(filename=&quot;image300.png&quot;)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Selenium Grid</title>
@@ -180,7 +201,7 @@
     <published>2017-01-02T06:57:52.000Z</published>
     <updated>2019-07-07T12:17:23.004Z</updated>
     
-    <content type="html"><![CDATA[<p>echarts 例子</p><a id="more"></a><div id="echarts6994" style="width: 85%;height: 400px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts6994'));        // 指定图表的配置项和数据        var option = {    tooltip : {        trigger: 'axis',        axisPointer : {            // 坐标轴指示器，坐标轴触发有效            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'        }    },    legend: {        data:['利润', '支出', '收入']    },    grid: {        left: '3%',        right: '4%',        bottom: '3%',        containLabel: true    },    xAxis : [        {            type : 'value'        }    ],    yAxis : [        {            type : 'category',            axisTick : {show: false},            data : ['周一','周二','周三','周四','周五','周六','周日']        }    ],    series : [        {            name:'利润',            type:'bar',            itemStyle : {                normal: {                    label: {show: true, position: 'inside'}                }            },            data:[200, 170, 240, 244, 200, 220, 210]        },        {            name:'收入',            type:'bar',            stack: '总量',            itemStyle: {                normal: {                    label : {show: true}                }            },            data:[320, 302, 341, 374, 390, 450, 420]        },        {            name:'支出',            type:'bar',            stack: '总量',            itemStyle: {normal: {                label : {show: true, position: 'left'}            }},            data:[-120, -132, -101, -134, -190, -230, -210]        }    ]};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
+    <content type="html"><![CDATA[<p>echarts 例子</p><a id="more"></a><div id="echarts6231" style="width: 85%;height: 400px;margin: 0 auto"></div><script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script><script type="text/javascript">        // 基于准备好的dom，初始化echarts实例        var myChart = echarts.init(document.getElementById('echarts6231'));        // 指定图表的配置项和数据        var option = {    tooltip : {        trigger: 'axis',        axisPointer : {            // 坐标轴指示器，坐标轴触发有效            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'        }    },    legend: {        data:['利润', '支出', '收入']    },    grid: {        left: '3%',        right: '4%',        bottom: '3%',        containLabel: true    },    xAxis : [        {            type : 'value'        }    ],    yAxis : [        {            type : 'category',            axisTick : {show: false},            data : ['周一','周二','周三','周四','周五','周六','周日']        }    ],    series : [        {            name:'利润',            type:'bar',            itemStyle : {                normal: {                    label: {show: true, position: 'inside'}                }            },            data:[200, 170, 240, 244, 200, 220, 210]        },        {            name:'收入',            type:'bar',            stack: '总量',            itemStyle: {                normal: {                    label : {show: true}                }            },            data:[320, 302, 341, 374, 390, 450, 420]        },        {            name:'支出',            type:'bar',            stack: '总量',            itemStyle: {normal: {                label : {show: true, position: 'left'}            }},            data:[-120, -132, -101, -134, -190, -230, -210]        }    ]};        // 使用刚指定的配置项和数据显示图表。        myChart.setOption(option);</script>]]></content>
     
     <summary type="html">
     
