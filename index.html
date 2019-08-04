@@ -387,7 +387,7 @@
                 
               
 
-              <time title="创建时间：2019-08-04 17:27:10 / 修改时间：17:33:18" itemprop="dateCreated datePublished" datetime="2019-08-04T17:27:10+08:00">2019-08-04</time>
+              <time title="创建时间：2019-08-04 17:27:10 / 修改时间：17:37:39" itemprop="dateCreated datePublished" datetime="2019-08-04T17:27:10+08:00">2019-08-04</time>
             </span>
           
 
@@ -443,11 +443,10 @@
       
         
           
-            <h2 id="安装ShopifyFD-Chrome插件"><a href="#安装ShopifyFD-Chrome插件" class="headerlink" title="安装ShopifyFD Chrome插件"></a>安装ShopifyFD Chrome插件</h2><h2 id="修改product-grid-item-liquid"><a href="#修改product-grid-item-liquid" class="headerlink" title="修改product-grid-item.liquid"></a>修改product-grid-item.liquid</h2><p>‘’’</p>
+            <h2 id="安装ShopifyFD-Chrome插件"><a href="#安装ShopifyFD-Chrome插件" class="headerlink" title="安装ShopifyFD Chrome插件"></a>安装ShopifyFD Chrome插件</h2><p><a href="https://chrome.google.com/webstore/detail/shopifyfd-dashboard-tool/lffljkleilfpjlmcdnoaghhcbnemelge" target="_blank" rel="noopener">https://chrome.google.com/webstore/detail/shopifyfd-dashboard-tool/lffljkleilfpjlmcdnoaghhcbnemelge</a></p>
+<p>可以下载后离线安装:<br><a href="https://chrome-extension-downloader.com/" target="_blank" rel="noopener">https://chrome-extension-downloader.com/</a></p>
+<h2 id="修改product-grid-item-liquid"><a href="#修改product-grid-item-liquid" class="headerlink" title="修改product-grid-item.liquid"></a>修改product-grid-item.liquid</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if product.metafields.product_meta.short_title %&#125;</span><br><span class="line">  &#123;&#123; product.metafields.product_meta.short_title &#125;&#125;</span><br><span class="line">&#123;% else %&#125;</span><br><span class="line">  &#123;&#123; product.title &#125;&#125;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
 
-  
-
-<p>‘’’</p>
 <h2 id="进入产品编辑页面-添加产品标题"><a href="#进入产品编辑页面-添加产品标题" class="headerlink" title="进入产品编辑页面,添加产品标题"></a>进入产品编辑页面,添加产品标题</h2><p><img src="/images/Product-Short-Title.webp" alt></p>
 <p>参考:</p>
 <p><a href="https://jadepuma.com/blogs/blog/creating-product-short-titles-in-shopify" target="_blank" rel="noopener">https://jadepuma.com/blogs/blog/creating-product-short-titles-in-shopify</a></p>
